@@ -2,7 +2,7 @@ library(tidyverse)
 library(ggplot2)
 library(broom)
 
-df<-read.csv('/Users/umeda.yoshinao/Desktop/tabelog_data.csv')
+df<-read.csv('data.csv')
 
 kyoto<-df %>% filter(prefecture=='京都')
 osaka<-df %>% filter(prefecture=='大阪')
